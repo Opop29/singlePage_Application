@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyPortfolio</title>
+    <title>Finalportfolio</title>
     <link rel="stylesheet" href="style.css">
     
 </head>
@@ -11,58 +11,179 @@
    
     <nav class="navbar">
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#About Me">About Me</a></li>
-            <li><a href="#Portfolio">Portfolio</a></li>
-            <li><a href="#hubbys">Hubbys</a></li>
-           
+            <li><a href="#home" onclick="navigateTo('home')">Home</a></li>
+            <li><a href="#About Us" onclick="navigateTo('About Us')">About Us</a></li>
+            <li><a href="#Resume" onclick="navigateTo('resume')">Resume</a></li>
+            <li><a href="#hubbys" onclick="navigateTo('hubbys')">Projects</a></li>
+            <li><a href="#contact" onclick="navigateTo('contact')">Contact</a></li> 
+            
         </ul>
     </nav>
     <section id="home">
-        <div class="main">
-            <h1 class="heading"> I'M<br> Joshua Quidit</h1>
-        <button class="btm">
-            open
-        </button>
-        </div>
+        <style>
+            .profile-image {
+                width: 300px;
+                height: 300px;
+                border-radius: 100%; /* Optional: Add a border-radius for a circular shape */
+            }
+           
+    .main,
+    .mainE {
+        text-align: center;
+        margin: 20px;
+    }
 
+    .profile-image {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%; /* Optional: Add a border-radius for a circular shape */
+        margin-bottom: 10px;
+    }
+
+    .heading,
+    .headingE {
+        font-family: 'Arial', sans-serif;
+        font-size: 32px;
+        color: #b50b0b;
+    }
+
+    .btm {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+
+<div class="main">
+    <img src="C:\Users\jccab\OneDrive\Pictures\Screenshots\403703852_364794625944681_4182774332176221030_n.jpg" alt="Joshua's Image" class="profile-image">
+    <h1 class="headings">I'm<br> Joshua Quidit</h1>
+    <button id="openjoshuaButton" class="btm">Open Joshua's Moto</button>
+</div>
+
+<div class="mainE">
+    <img src="C:\Users\jccab\OneDrive\Pictures\Saved Pictures\409373152_327208393586609_6104264507763256395_n (1).jpg" alt="Elaiza's Image" class="profile-image">
+    <h1 class="headingE">I'm<br> Elaiza Mae Bayoc</h1>
+    <button id="openElizaButton" class="btm">Open Eliza's Moto</button>
+</div>
+        
     </section>
-    <section id="About Me">
-        <h1 class="heading">ABOUT ME</h1>
+    <section id="About Us">
+        <h1 class="heading">ABOUT Joshua</h1>
         <div id="pic">
            
             <img src="1.png" alt="">
             <div id="intro">
                 <h2>Joshua Quidit</h2>
-                 <p>Joshua Quidit, a resident of Sankanan, Manolo Fortich, Bukidnon, is a creative individual with a passion for artistic expression. Born with an innate talent for drawing, Joshua has found solace and joy in the simplicity of a pencil and the boundless possibilities it offers.
+                <p>Hello! My name is Joshua Quidit, and I'm 20 years old. I am passionate about Developing A Game. Currently, I study in the field of Computer Studies. Here's a bit more about me:</p>
 
-                    Early Life:
-                    Joshua's journey in the world of art began in the scenic landscapes of Bukidnon. Surrounded by the natural beauty of his hometown, he developed a deep appreciation for the arts and a keen eye for capturing the essence of his surroundings.
-                    
-                    Love for Drawing:
-                    One of Joshua's defining characteristics is his love for drawing, a craft he has honed with a humble pencil. Embracing traditional tools, Joshua believes that the tactile connection between hand and paper allows for a unique and intimate form of self-expression. His sketches, crafted with precision and care, reveal the intricate details of his imaginative mind.
-                    
-                    Artistic Philosophy:
-                    In a world increasingly dominated by technology, Joshua holds a distinctive perspective. While acknowledging the importance of technology in society, he remains rooted in the belief that the simplicity of a pencil provides a timeless and authentic connection to artistic expression. Joshua sees technology as a valuable tool, but he cherishes the tactile and organic nature of traditional art.
-                    
-                    Community Involvement:
-                    Beyond his personal artistic endeavors, Joshua actively engages with his community. He shares his passion by conducting local art workshops, encouraging others to explore their creativity and appreciate the beauty that surrounds them.
-                    
-                    Future Aspirations:
-                    Looking ahead, Joshua envisions a future where he continues to merge traditional and contemporary artistic approaches. He aspires to create a meaningful impact through his art, fostering a deeper connection between individuals and the world around them.
-                    
-                    In the quiet town of Sankanan, where the rolling hills meet the sky, Joshua Quidit's artistic journey unfolds, leaving an indelible mark on the canvas of his community and beyond.
-                    
-                    
-                    
-                    
-                    
-                    
-                    </p>
+                <ul>
+                    <li><strong>Education:</strong> [Atended School's 
+                        Elememntary; 
+                        Cugman Elementary School
+                        Highschool K12;
+                        Cugman National Highschool
+                         College;
+                         Northern Bukidnon State College]</li>
+                    <li><strong>Experience:</strong> [I have experince in Ui designing]</li>
+                    <li><strong>Skills:</strong> [Designing, Programming]</li>
+                    <li><strong>Hobbies:</strong> [Playing Basketball, Reading, Running, Mountain Climbing]</li>
+                </ul>
+            </div>
+        </div>
+
+        <h1 class="heading">ABOUT Elaiza Mae </h1>
+        <div id="pic">
+           
+            <img src="C:\Users\jccab\OneDrive\Pictures\Saved Pictures\409373152_327208393586609_6104264507763256395_n (1).jpg" alt="">
+            <div id="intro">
+                <h2>Elaiza Mae Bayoc </h2>
+                <p>Hello! My name is Elaiza Mae Bayoc, and I'm 21 years old. I am passionate about Designing. Currently, I study in the field of Computer Science. Here's a bit more about me:</p>
+
+                <ul>
+                    <li><strong>Education:</strong> [Atended School's 
+                        Elememntary; 
+                        Dahilayan Elementary School
+                        Highschool K12;
+                        Manolo Fortich National Highschool
+                         College;
+                         Northern Bukidnon State College]</li>
+                    <li><strong>Experience:</strong> [I have experince in Ui designing]</li>
+                    <li><strong>Skills:</strong> [Designing, Programming]</li>
+                    <li><strong>Hobbies:</strong> [Playing Badminton, Watching Kdrama, Driving]</li>
+                </ul>
             </div>
         </div>
 
     </section>
+
+<section id="resume">
+  
+  <div class="buttonsR">
+    <button onclick="showJoshuaResume()">View Resume</button>
+  </div>
+
+    <section id="joshua-resume" class="active">
+        <header class="heading">
+            <h1>Joshua Quidit</h1>
+            <p>Web Developer</p>
+        </header>
+    
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Northern Bukidnon State College</strong> - Bachelor of Science and Information Technologies</li>
+        </ul>
+    
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Computer Studies</strong> - Ui designing</li>
+     <ul>   
+    
+        <h2>Skills</h2>
+        <p>HTML, CSS, JavaScript, Java</p>
+    
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: joshuaquidit@gmail.com</p>
+            <p>Phone: 09231421873</p>
+        </div>
+        
+        <button onclick="showElizaResume()">Eliza's Resume</button>
+    </section>
+    
+    <section id="eliza-resume">
+       
+        <header class="heading">
+            <h1>Eliza Mea Bayoc</h1>
+            <p>Graphic Designer</p>
+        </header>
+    
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Northern Bukidnon State College</strong> - Bachelor of Sciense and Information Technology</li>
+        </ul>
+    
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Computer Studies</strong> - Ui Designing</li>
+
+        </ul>
+    
+        <h2>Skills</h2>
+        <p>Adobe Photoshop, Illustrator, InDesign, Branding, Illustration</p>
+    
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: elizamae2@gmail.com</p>
+            <p>Phone: 09618275493</p>
+            <button onclick="showJoshuaResume()">Joshua's Resume</button>
+        </div>
+    </section> 
+</section>
+
+
 
   <section id="Portfolio">
     <h1>My Respository</h1>
@@ -78,33 +199,40 @@
            
         </div>
     </section>
-    <section id="hubbys">
-        <h1 class="heading">hubbys</h1>
-       <div class="row">
-        <div class="box">
-            <img src="bas.jpg" alt="">
-            <h1 class="heading">Basketball</h1> 
-        <p>Basketball is a team sport in which two teams, typically consisting of five players each, compete to score points by throwing a ball through the opposing team's basket. The game is played on a rectangular court with a hoop at each end. The objective is to score points by shooting the basketball into the opponent's basket, which is mounted 10 feet (3.05 meters) above the floor.</p>
-    </div>
-   
-     <div class="box">
-        <img src="ml.jpg" alt="">
-         <h1 class="heading">mobile  legends</h1>
-     <p>Mobile Legends: Bang Bang (often abbreviated as MLBB or simply Mobile Legends) is a popular multiplayer online battle arena (MOBA) mobile game developed and published by Moonton. It is designed for mobile devices and is available on both iOS and Android platforms. The game was first released in 2016.</p>
- </div>
+    
 
-  <div class="box">
-    <img src="dota2.png" alt="">
-      <h1 class="heading">dota 2</h1>
-  <p>Dota" stands for "Defense of the Ancients," and it refers to a genre of video games known as Multiplayer Online Battle Arena (MOBA) games. The original Dota game was a custom map for the real-time strategy game "Warcraft III: Reign of Chaos" and its expansion, "The Frozen Throne." The map, known as "DotA Allstars," was created by a community of modders, with different contributors refining and expanding upon it over time.</p>
+    <section id="hubbys">
+        <h1 class="heading">Projects</h1>
+        <div class="row">
+            <div class="box">
+                <img src="C:\Users\jccab\OneDrive\Pictures\Screenshots\403703852_364794625944681_4182774332176221030_n.jpg" alt="">
+                <h1 class="heading">GitHub Projects</h1>
+                <p><a href="https://github.com/Opop29/html-webpage.git" target="_blank">https://github.com/Opop29/html-webpage.git</a></p>
+                <p><a href="https://github.com/Opop29/singlePage_Application.git" target="_blank">https://github.com/Opop29/singlePage_Application.git</a></p>
+            </div>
+    
+            <div class="box">
+                <img src="C:\Users\jccab\OneDrive\Pictures\Saved Pictures\409373152_327208393586609_6104264507763256395_n (1).jpg" alt="">
+                <h1 class="heading">GitHub Projects</h1>
+                <p><a href="https://github.com/Opop29/html-webpage.git" target="_blank">https://github.com/Opop29/html-webpage.git</a></p>
+                <p><a href="https://github.com/Opop29/singlePage_Application.git" target="_blank">https://github.com/Opop29/singlePage_Application.git</a></p>
+            </div>
+        </div>
+    </section>
+    
 </div>
-<div class="box">
-    <img src="76e71db1ed76364d6f86871fa3977a63.png" alt="">
-    <h1 class="heading">Drawing</h1>
-<p>drawing is a form of visual art where an artist uses various tools such as pencils, pens, charcoal, or digital devices to create images on a surface. The surface can be paper, canvas, digital screens, or other materials. Drawings can range from simple sketches to detailed and intricate artworks, and they can be realistic, abstract, or stylized.</p>
-</div>
-</div>
+    </section>
+    <section id="contact">
+        <h1 class="heading">Contact</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter your name">
+            <input type="Email" name="Email" class="input" placeholder="Enter your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your Message">
+            </textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
     </section>
     <script src="app.js"></script>
 </body>
+
 </html>
